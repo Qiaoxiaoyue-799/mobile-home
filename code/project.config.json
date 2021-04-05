@@ -1,0 +1,63 @@
+{
+	"cloudfunctionRoot": "cloud/",
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.14.4",
+	"appid": "wxfc2fd49b3b53fa83",
+	"projectname": "mobile-home",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "商品详情页",
+					"pathName": "pages/demo1-1/demo1-1",
+					"query": "id=28ee4e3e6066fdac0de9c5e65637a4bc",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "商品列表页",
+					"pathName": "pages/demo1/demo1",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

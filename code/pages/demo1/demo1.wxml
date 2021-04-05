@@ -1,0 +1,15 @@
+输入商品名
+<input bindinput="getName"></input>
+输入商品价格
+<input bindinput="getPrice"></input>
+<button bindtap="addGood" type="primary">添加商品</button>
+<!-- type="primary"是设置按钮样式直接变绿 -->
+<view wx:for="{{list}}">
+  <view bindtap="goDetail" data-id="{{item._id}}">
+    商品名称：{{item.name}} 商品价格：{{item.price}}
+  </view>
+  <!-- 此处为固定写法data-name是携带一个自定义名字的name，它的值为后面的item.name的值 -->
+</view>
+<button bindtap="paixu">按商品价格排序</button>
+<button bindtap="jiangxu">按商品价格降序</button>
+<button bindtap="limit">返回3条数据</button>

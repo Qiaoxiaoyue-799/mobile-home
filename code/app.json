@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/modelmanage/modelmanage",
+    "pages/advertisemanage/advertisemanage",
+    "pages/newsmanage/newsmanage",
+    "pages/adminmanage/adminmanage",
+    "pages/shuaxin/shuaxin",
+    "pages/yuncunchu/yuncunchu",
+    "pages/goods/goods",
+    "pages/goodsdetail/goodsdetail",
+    "pages/yunhanshu/yunhanshu",
+    "pages/demo1/demo1",
+    "pages/command/command",
+    "pages/skip/skip",
+    "pages/demo1-1/demo1-1",
+    "pages/add/add",
+    "pages/shujuku/shujuku",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6f3b3b",
+    "navigationBarTitleText": "手机之家后台管理系统",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#2c2c2c",
+    "list": [
+      {
+        "pagePath": "pages/modelmanage/modelmanage",
+        "text": "型号维护",
+        "iconPath": "/images/bar/shouye-1.png",
+        "selectedIconPath": "/images/bar/shouye-2.png"
+      },
+      {
+        "pagePath": "pages/advertisemanage/advertisemanage",
+        "text": "广告位管理",
+        "iconPath": "/images/bar/fujin-1.png",
+        "selectedIconPath": "/images/bar/fujin-2.png"
+      },
+      {
+        "pagePath": "pages/newsmanage/newsmanage",
+        "text": "资讯管理",
+        "iconPath": "/images/bar/fenlei-1.png",
+        "selectedIconPath": "/images/bar/fenlei-2.png"
+      },
+      {
+        "pagePath": "pages/adminmanage/adminmanage",
+        "text": "用户管理",
+        "iconPath": "/images/bar/wode-1.png",
+        "selectedIconPath": "/images/bar/wode-2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
