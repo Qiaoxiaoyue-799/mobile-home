@@ -1,0 +1,7 @@
+<!--pages/shujuku/shujuku.wxml-->
+<view wx:for="{{list}}">
+  <view>商品名称：{{item.name}} 商品价格：{{item.price}}</view>
+</view>
+<view>
+  <view>doc查询的单条数据商品名称：{{good.name}} </view>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/advertisemanagede/advertisemanagede.wxml-->
+<view class="title">
+  <text>广告位信息列表</text>
+</view>
+<view class="content">
+  <image class="img" src="{{detail.picture}}"></image>
+  <view>标题：{{detail.title}}</view>
+  <view>电话：{{detail.tel}}</view>
+  <button class="btn" bindtap="goDetail" data-id="{{detail._id}}">修改</button>
+</view>

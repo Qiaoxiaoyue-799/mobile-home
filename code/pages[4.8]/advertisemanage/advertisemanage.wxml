@@ -1,0 +1,19 @@
+<!--pages/advertisemanage/advertisemanage.wxml-->
+<view class="title">
+  <text>广告位信息列表</text>
+  <navigator 
+        class="nav"
+        url="/pages/advertisemanageadd/advertisemanageadd" open-type="navigate">
+    <button class="btn1">+</button>
+  </navigator>  
+</view>
+<view class="content" wx:for="{{list}}">
+  <view class="condetail">
+    <view>标题：{{item.title}}</view>
+    <text class="wenzhang">内容：{{item.content}}</text>
+    <!-- <text>图片：{{item.picture}}</text> -->
+    <image class="img" src="{{item.picture}}"></image>
+    <button bindtap="goDetail" data-id="{{item._id}}" class="btn">查看</button>
+    <button bindtap="delData" data-id="{{item._id}}" class="btn">删除</button>
+  </view>
+</view>

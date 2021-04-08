@@ -1,0 +1,21 @@
+/* pages/advertisemanagede/advertisemanagede.wxss */
+.title{
+  width: 90%;
+  height: 60rpx;
+  padding: 1%;
+  /* padding-right: 500rpx; */
+  margin-left:4%;
+  margin-top: 4%;
+  /* background-color: pink; */
+  border-bottom: 2px solid gray;
+} 
+.btn{
+  width: 150rpx;
+  height: 55rpx;
+  margin: 0;
+  float: right;
+  font-size: 30rpx;
+  color: white;
+  background-color: #6f3b3b;
+  line-height: 1.8;
+}

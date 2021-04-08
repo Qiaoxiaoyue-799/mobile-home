@@ -1,0 +1,26 @@
+/* pages/modelmanagechde/modelmanagechde.wxss */
+.kuang{
+  border:1px solid gray;
+}
+button{
+  display: block;
+  float: left;
+  width: 200rpx;
+  height: 65rpx;
+  font-size: 30rpx;
+  line-height: 2.2;
+  margin-left: 125rpx;
+}
+label{
+  float:left;
+  margin-left: 30rpx;
+}
+input{
+  /* width: 70%; */
+  float: left;
+  margin-left: 30rpx;
+}
+.box{
+  width: 100%;
+  height: 100rpx;
+}

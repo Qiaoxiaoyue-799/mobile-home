@@ -1,0 +1,2 @@
+<!--pages/command/command.wxml-->
+<view>123{{goods.price}}</view>

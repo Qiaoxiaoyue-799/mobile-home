@@ -1,0 +1,2 @@
+<!--pages/yunhanshu/yunhanshu.wxml-->
+<text>{{openid}}</text>

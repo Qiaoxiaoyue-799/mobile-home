@@ -1,0 +1,13 @@
+<view class="title">
+  <text>手机品牌信息列表</text>
+</view>
+<view class="content">
+  <text>手机型号：{{detail.name}}</text>
+  <text>手机芯片：{{detail.chip}}</text>
+  <text>手机屏幕：{{detail.screen}}</text>
+  <button class="btn" bindtap="goDetail" data-id="{{detail._id}}">修改</button>
+</view>
+<!-- 更新商品电池容量:
+<input class="kuang" bindinput="getName"></input>
+<button type="primary" bindtap="updateName">更新商品电池容量</button>
+<button bindtap="shanchu">删除当前商品</button> -->

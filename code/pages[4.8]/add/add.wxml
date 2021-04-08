@@ -1,0 +1,5 @@
+<!--pages/add/add.wxml-->
+<button bindtap="add">点击添加数据</button>
+<button bindtap="update">点击修改数据</button>
+<button bindtap="remove">点击删除数据</button>
+

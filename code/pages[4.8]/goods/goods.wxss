@@ -1,0 +1,8 @@
+/* pages/goods/goods.wxss */
+.img{
+  width:280rpx;
+  height:200rpx;
+}
+.item{
+  border-bottom: 1px solid gray;
+}

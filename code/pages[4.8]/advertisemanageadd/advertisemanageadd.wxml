@@ -1,0 +1,22 @@
+<!--pages/advertisemanageadd/advertisemanageadd.wxml-->
+<!--pages/advertisemanagechde/advertisemanagechde.wxml-->
+添加广告位信息:
+<view class="box">
+<!-- <label>图片</label> -->
+<image class="img" src="{{imgUrl}}"></image>
+<!-- <input class="kuang" bindinput="getPicture" value="{{detail.picture}}"></input> -->
+<button bindtap="chooseImg">选择图片</button>
+
+</view>
+
+<view class="box">
+<label>标题</label>
+<input class="kuang" bindinput="getTitle"></input>
+</view>
+
+<view class="box">
+<label>电话</label>
+<input class="kuang" bindinput="getTel"></input>
+</view>
+
+<button type="primary" bindtap="addAdvertise">添加数据</button>
