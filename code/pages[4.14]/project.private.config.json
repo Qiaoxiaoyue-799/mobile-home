@@ -1,0 +1,69 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "商品详情页",
+          "pathName": "pages/demo1-1/demo1-1",
+          "query": "id=28ee4e3e6066fdac0de9c5e65637a4bc",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "商品列表页",
+          "pathName": "pages/demo1/demo1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/modelmanagedetail/modelmanagedetail",
+          "pathName": "pages/modelmanagedetail/modelmanagedetail",
+          "query": "id=b00064a7604042ab083992903d58d0f5",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "参数修改页",
+          "pathName": "pages/modelmanagechde/modelmanagechde",
+          "query": "id=b00064a7604042ab083992903d58d0f5",
+          "scene": null
+        },
+        {
+          "name": "广告位详情",
+          "pathName": "pages/advertisemanagede/advertisemanagede",
+          "query": "id=b00064a760477534092e25007a245c3a",
+          "scene": null
+        },
+        {
+          "name": "资讯管理",
+          "pathName": "pages/newsmanage/newsmanage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "广告位管理",
+          "pathName": "pages/advertisemanage/advertisemanage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "型号管理",
+          "pathName": "pages/brandmanage/brandmanage",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

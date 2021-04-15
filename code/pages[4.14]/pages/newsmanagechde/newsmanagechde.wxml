@@ -1,0 +1,22 @@
+<!--pages/newsmanagechde/newsmanagechde.wxml-->
+<view class="title">
+  <text>修改资讯信息</text> 
+</view> 
+<view class="content">
+    <view class="boxtu">
+    <image class="img" src="{{imgUrl}}"></image>
+    <button bindtap="chooseImg">选择图片</button>
+    </view>
+
+    <view class="box">
+    <label>标题</label>
+    <input class="kuang" bindinput="getTitle" value="{{detail.title}}"></input>
+    </view>
+
+    <view class="box">
+    <label>正文</label>
+    <input class="kuang" bindinput="getContent" value="{{detail.content}}"></input>
+    </view>
+
+    <button type="primary" bindtap="updateNews">更新数据</button>
+</view> 

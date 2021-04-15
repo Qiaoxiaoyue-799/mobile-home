@@ -1,0 +1,22 @@
+<!--pages/advertisemanageadd/advertisemanageadd.wxml-->
+<view class="title">
+  <text>新增广告位信息</text> 
+</view> 
+<view class="content">
+  <view class="boxtu">
+    <image class="img" src="{{imgUrl}}"></image>
+    <button bindtap="chooseImg" style="font-size: 15px;background-color: #6f3b3b;color:white" size="big">选择图片</button>
+  </view>
+
+  <view class="box">
+    <label>标题</label>
+    <input class="kuang" bindinput="getTitle"></input>
+  </view>
+
+  <view class="box">
+    <label>电话</label>
+    <input class="kuang" bindinput="getTel"></input>
+  </view>
+
+  <button bindtap="addAdvertise" size="mini" style="font-size: 12px;" class="btn">添加数据</button>
+</view>

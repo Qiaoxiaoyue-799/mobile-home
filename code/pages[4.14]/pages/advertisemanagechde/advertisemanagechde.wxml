@@ -1,0 +1,21 @@
+<!--pages/advertisemanagechde/advertisemanagechde.wxml-->
+<view class="title">
+  <text>修改广告位信息</text> 
+</view> 
+<view class="content">
+  <view class="boxtu">
+    <!-- <label>图片</label> -->
+    <image class="img" src="{{imgUrl}}"></image> 
+    <button bindtap="chooseImg">选择图片</button>
+  </view>
+  <view class="box">
+    <label>标题</label>
+    <input class="kuang" bindinput="getTitle" value="{{detail.title}}"></input>
+  </view>
+  <view class="box">
+    <label>电话</label>
+    <input class="kuang" bindinput="getTel" value="{{detail.tel}}"></input>
+  </view>
+
+  <button type="primary" bindtap="updateAdvertise">更新数据</button>
+</view>

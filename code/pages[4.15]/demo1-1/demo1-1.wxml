@@ -1,0 +1,6 @@
+<!-- 商品详情页 -->
+<view>商品名称：{{good.name}} 商品价格：{{good.price}}</view>
+更新商品价格:
+<input bindinput="getPrice"></input>
+<button type="primary" bindtap="updatePrice">更新商品价格</button>
+<button bindtap="shanchu">删除当前商品</button>

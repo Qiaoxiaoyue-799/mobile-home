@@ -1,0 +1,10 @@
+<!--pages/adminmanagede/adminmanagede.wxml-->
+<view class="title">
+  <text>管理员信息列表</text>
+</view>
+<view class="content">
+  <text>姓名：{{detail.name}}</text>
+  <text>性别：{{detail.gender}}</text>
+  <text>电话：{{detail.tele}}</text>
+  <button class="btn" bindtap="goDetail" data-id="{{detail._id}}" size="mini">修改</button>
+</view>

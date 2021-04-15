@@ -1,0 +1,27 @@
+<!--pages/adminmanagechde/adminmanagechde.wxml-->
+修改管理员信息:
+<view class="box">
+<label>姓名</label>
+<input class="kuang" bindinput="getName" value="{{detail.name}}"></input>
+</view>
+
+<view class="box">
+<label>性别</label>
+<input class="kuang" bindinput="getGender" value="{{detail.gender}}"></input>
+</view>
+
+<view class="box">
+<label>邮箱</label>
+<input class="kuang" bindinput="getMail" value="{{detail.mail}}"></input>
+</view>
+
+<view class="box">
+<label>联系方式</label>
+<input class="kuang" bindinput="getTele" value="{{detail.tele}}"></input>
+</view>
+
+<button type="primary" bindtap="updateAdmin" class="btn" size="mini">
+  更新数据
+</button>
+<button bindtap="shanchu" class="btn" size="mini">删除</button>
+

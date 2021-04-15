@@ -1,0 +1,11 @@
+<!--pages/modelmanage/modelmanage.wxml-->
+<view class="title">
+  <text>手机系列信息列表</text>
+</view>
+<view class="content" wx:for="{{list}}">
+  <view class="condetail" bindtap="goDetail" 
+      data-series="{{item.series}}" data-id="{{item._id}}">
+    <text>手机系列：{{item.series}}</text>
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+  </view>
+</view>

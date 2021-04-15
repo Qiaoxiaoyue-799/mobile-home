@@ -1,0 +1,58 @@
+/* pages/advertisemanagede/advertisemanagede.wxss */
+.title{
+  width: 90%;
+  height: 60rpx;
+  padding: 1%;
+  /* padding-right: 500rpx; */
+  margin-left:4%;
+  margin-top: 4%;
+  /* background-color: pink; */
+  border-bottom: 2px solid gray;
+} 
+.btn{
+  width: 150rpx;
+  height: 55rpx;
+  margin: 0;
+  float: right;
+  font-size: 30rpx;
+  color: white;
+  background-color: #6f3b3b;
+  line-height: 1.8;
+  margin-right: 10px;
+}
+.word1{
+  display: block;
+  width: 75%;
+  height: 30px;
+  margin:0 auto;
+  padding-bottom: 10px;
+  padding-top:20px;
+  font-size: 15px;
+}
+.word2{
+  width: 75%;
+  height: 100px;
+  margin:0 auto;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+.content{
+  border:1px solid rgb(156, 151, 151);
+  width: 80%;
+  height: 400px;
+  padding:2%;
+  /* padding-top:20px; */
+  margin:0 auto;
+  margin-top: 10px;
+  box-shadow:0px 4px 8px 4px #DDDDDD;
+  /* border-radius: 20px; */
+}
+.img{
+  display:block ;
+  width: 90%;
+  height: 160px;
+  margin:0 auto;
+  margin-bottom: 20px;
+  border:1px solid gray;
+  border-radius: 20px;
+}

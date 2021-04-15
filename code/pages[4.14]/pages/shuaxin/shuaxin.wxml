@@ -1,0 +1,6 @@
+<view wx:for="{{list}}">
+  <view class="item" bindtap="goDetail" data-id="{{item._id}}">
+    <image src="{{item.img}}" class="img"></image>
+    <text>商品名：{{item.name}}  价格：{{item.price}}</text>
+  </view>
+</view>

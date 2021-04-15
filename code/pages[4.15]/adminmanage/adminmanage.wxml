@@ -1,0 +1,18 @@
+<!--pages/adminmanage/adminmanage.wxml-->
+<view class="title">
+  <text>管理员信息列表</text>
+  <navigator 
+        class="nav"
+        url="/pages/adminmanageadd/adminmanageadd" open-type="navigate">
+    <button class="btn1" size="mini">+</button>
+  </navigator>  
+</view>
+<view>用户名字记录：{{username}}</view>
+<view class="content" wx:for="{{admin}}">
+  <view class="condetail"  >
+    <text>手机型号：{{item.name}}</text>
+    <button bindtap="goDetail" data-id="{{item._id}}" class="btn" size="mini">查看</button>
+    <button class="btn" bindtap="delData" data-id="{{item._id}}" 
+    data-series="{{item.series}}" size="mini">删除</button>
+  </view>
+</view>

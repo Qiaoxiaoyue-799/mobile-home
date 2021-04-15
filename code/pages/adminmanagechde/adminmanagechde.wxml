@@ -1,0 +1,36 @@
+<!--pages/adminmanagechde/adminmanagechde.wxml-->
+<view class="title"> 
+  <text>修改管理员信息</text>  
+</view>
+<view class="contianer">
+  <form bindsubmit="comfirm">
+  <view class="content">
+    <view class="box">
+    <label>姓名</label>
+    <input style="display:none" data-value="{{id}}" name="id" value="{{admin._id}}"></input>
+    <input class="kuang" data-value='{{name}}' name="name"  value="{{admin.name}}"></input>
+    </view>
+
+    <view class="box">
+    <label>性别</label>
+    <input class="kuang" data-value='{{gender}}' name="gender"  value="{{admin.gender}}"></input>
+    </view>
+
+    <view class="box">
+    <label>邮箱</label>
+    <input class="kuang" data-value='{{mail}}' name="mail" value="{{admin.mail}}"></input>
+    </view>
+
+    <view class="box">
+    <label>联系方式</label>
+    <input class="kuang" data-value='{{tele}}' name="tele"  value="{{admin.tele}}"></input>
+    </view>
+    <view class="comfirm">
+    <button form-type="submit" class="btn" size="mini" style="font-size: 13px;">
+      更新数据
+    </button>
+  </view>
+    <button bindtap="shanchu" class="btn" size="mini" style="font-size: 13px;">删除</button>
+  </view>
+</form>
+</view>

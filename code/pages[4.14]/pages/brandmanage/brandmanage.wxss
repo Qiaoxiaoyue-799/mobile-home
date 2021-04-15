@@ -1,0 +1,53 @@
+/* pages/modelmanage/modelmanage.wxss */
+.title{
+  width: 90%;
+  height: 60rpx;
+  padding: 1%;
+  /* padding-right: 500rpx; */
+  margin-left:4%;
+  margin-top: 4%;
+  /* background-color: pink; */
+  border-bottom: 2px solid gray;
+} 
+.content{
+  background-color:pink; 
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 90%;
+}
+.condetail{
+  background-color:#f1f1f1;
+  width: 96%;
+  padding:1.5%;
+  margin-bottom: 50rpx;
+  border: 1px solid gray;
+}
+.btn{
+  /* display: block; */
+  width: 150rpx;
+  height: 55rpx;
+  margin: 0;
+  float: right;
+  font-size: 30rpx;
+  color: white;
+  background-color: #6f3b3b;
+  line-height: 2.1
+}
+.btn1{
+  width: 85rpx;
+  height: 55rpx;
+  margin: 0;
+  float: right;
+  /* margin-left: 300rpx; */
+  font-size: 35rpx;
+  /* text-align: center; */
+  color: white;
+  background-color: #6f3b3b;
+  /* line-height: 1.6 */
+}
+.nav{
+  width:200rpx;
+  height:60rpx;
+  float:right;
+  /* background-color: green */
+}

@@ -1,0 +1,49 @@
+<!--pages/modelmanagechde/modelmanagechde.wxml-->
+<view class="title">
+  <text>修改参数信息</text>
+</view>
+<view class="content">
+  <view class="box">
+  <label>型号</label>
+  <input class="kuang" bindinput="getName" value="{{detail.name}}"></input>
+  </view>
+
+  <view class="box">
+  <label>芯片</label>
+  <input class="kuang" bindinput="getChip" value="{{detail.chip}}"></input>
+  </view>
+
+  <view class="box">
+  <label>屏幕</label>
+  <input class="kuang" bindinput="getScreen" value="{{detail.screen}}"></input>
+  </view>
+
+  <view class="box">
+  <label>储存</label>
+  <input class="kuang" bindinput="getCache" value="{{detail.cache}}"></input>
+  </view>
+
+  <view class="box">
+  <label>前置像素</label>
+  <input class="kuang" bindinput="getFcamera" value="{{detail.fcamera}}"></input>
+  </view>
+
+  <view class="box">
+  <label>后置像素</label>
+  <input class="kuang" bindinput="getRcamera" value="{{detail.rcamera}}"></input>
+  </view>
+
+  <view class="box">
+  <label>电池容量</label>
+  <input class="kuang" bindinput="getBattery" value="{{detail.battery}}"></input>
+  </view>
+
+  <view class="box">
+  <label>价格</label>
+  <input class="kuang" bindinput="getPrice" value="{{detail.price}}"></input>
+  </view>
+</view>
+
+
+<button bindtap="updateName" size="mini" style="font-size: 12px;" class="btn">更新数据</button>
+<button bindtap="shanchu" size="mini" style="font-size: 12px;" class="btn">删除</button> 

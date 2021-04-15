@@ -1,0 +1,11 @@
+<!--pages/newsmanagede/newsmanagede.wxml-->
+<view class="title">
+  <text>资讯信息列表</text>
+</view>
+<view class="content">
+  <image class="img" src="{{detail.picture}}"></image>
+  <view class="word1">标题：{{detail.title}}</view>
+  <view class="word2">正文：{{detail.content}}</view>
+  <button class="btn" bindtap="goDetail" data-id="{{detail._id}}" size="mini" style="font-size: 12px;">修改</button>
+</view>
+ 

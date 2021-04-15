@@ -1,0 +1,43 @@
+/* pages/modelmanage/modelmanage.wxss */
+.title{
+  width: 90%;
+  height: 60rpx;
+  padding: 1%;
+  margin-left:4%;
+  margin-top: 4%;
+  /* background-color: pink; */
+  border-bottom: 2px solid gray;
+} 
+.content{
+  width: 90%;
+  height: 500rpx;
+  background-color:pink; 
+  padding-top: 5%;
+  padding-left: 5%;
+  /* border: 2px solid gray; */
+  /* display: block; */
+}
+.condetail{
+  background-color:#f1f1f1;
+  width: 96%;
+  padding:1.5%;
+  margin-bottom: 30rpx;
+  border: 1px solid gray;
+}
+.btn{
+  /* display: block; */
+  width: 150rpx;
+  height: 55rpx;
+  margin: 0;
+  float: right;
+  font-size: 30rpx;
+  color: white;
+  background-color: #6f3b3b;
+  margin-left:5rpx;
+}
+.nav{
+  width:200rpx;
+  height:60rpx;
+  float:right;
+  /* background-color: green */
+}

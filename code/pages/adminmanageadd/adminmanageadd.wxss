@@ -1,0 +1,27 @@
+/* pages/adminmanageadd/adminmanageadd.wxss */
+.kuang{
+  border:1px solid gray;
+}
+.btn{
+  line-height: 2;
+  width: 150rpx;
+  height: 70rpx;
+  margin: 0;
+  float: right;
+  font-size: 32rpx;
+  color: white;
+  background-color: #6f3b3b;
+}
+label{
+  float:left;
+  margin-left: 30rpx;
+}
+input{
+  /* width: 70%; */
+  float: left;
+  margin-left: 30rpx;
+}
+.box{
+  width: 100%;
+  height: 100rpx;
+}

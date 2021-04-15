@@ -1,0 +1,26 @@
+<!--pages/newsmanagechde/newsmanagechde.wxml-->
+<view class="title">
+  <text>修改资讯信息</text> 
+</view> 
+<form bindsubmit="comfirm">
+<view class="content">
+    <view class="boxtu">
+    <image class="img" src="{{imgUrl}}"></image>
+    <button bindtap="chooseImg">选择图片</button>
+    </view>
+
+    <view class="box">
+    <label>标题</label>
+    <input style="display:none" data-value="{{id}}" name="id" value="{{model._id}}"></input>
+    <input class="kuang" data-value="{{title}}" name="title" value="{{model.title}}"></input>
+    </view>
+
+    <view class="box">
+    <label>正文</label>
+    <input class="kuang" data-value="{{content}}" name="content" value="{{model.content}}"></input>
+    </view>
+    <view class="comfirm">
+    <button type="primary" form-type="submit">更新数据</button>
+</view> 
+</view>
+</form>

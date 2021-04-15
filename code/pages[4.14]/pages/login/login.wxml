@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+输入用户名
+<input bindinput="getName"></input>
+<!-- 输入用户电话
+<input bindinput="getTele"></input> -->
+输入您的密码
+<input bindinput="getPassword" password="true"></input>
+<!-- <navigator 
+  class="nav"
+  url="/pages/adminmanage/adminmanage" open-type="navigate"> -->
+  <button bindtap="login">登录</button>
+<!-- </navigator>  -->
