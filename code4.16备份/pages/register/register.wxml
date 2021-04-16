@@ -1,0 +1,26 @@
+<!--pages/register/register.wxml-->
+<!--pages/login/login.wxml-->
+<view class="whole">
+  <view class="title">加入我们</view>
+  <view class="main">
+    <!-- 输入用户名 -->
+    <view class="input1">
+      <image src="/images/bar/wode-1.png" style="margin:5px;width:20px;height:20px"></image>
+      <input bindinput="getName" placeholder="请输入您的账户名"></input>
+    </view>
+    <!-- 输入用户电话 -->
+    <view class="input1">
+      <image src="/images/bar/tel.png" style="margin:5px;width:20px;height:20px"></image>
+      <input bindinput="getTele" placeholder="请输入您的电话"></input>
+    </view>
+    <!-- 输入您的密码 -->
+    <view class="input1">
+      <image src="/images/bar/suo.png" style="margin:5px;width:22px;height:22px"></image>
+      <input bindinput="getPassword" password="true" placeholder="请输入您的密码"></input>
+    </view>
+    <button bindtap="register" size="mini" style="font-size:15px;">注册</button>
+  </view>
+
+</view>
+
+

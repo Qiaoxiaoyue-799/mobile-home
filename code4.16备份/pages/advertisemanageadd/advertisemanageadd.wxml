@@ -1,0 +1,26 @@
+<!--pages/advertisemanageadd/advertisemanageadd.wxml-->
+<view class="title">
+  <text>新增广告位信息</text> 
+</view> 
+<form bindsubmit="comfirm">
+<view class="content">
+  <view class="boxtu">
+    <image class="img" src="{{imgUrl}}"></image>
+    <button bindtap="chooseImg" style="font-size: 15px;background-color: #6f3b3b;color:white" size="big">选择图片</button>
+  </view>
+
+  <view class="box">
+    <label>标题</label>
+    <input style="display:none" data-value="{{id}}" name="id" value="{{model._id}}"></input>
+    <input class="kuang" data-value="{{title}}" name="title" value="{{model.title}}"></input>
+  </view>
+
+  <view class="box">
+    <label>电话</label>
+    <input class="kuang" data-value="{{tel}}" name="tel" value="{{model.tel}}"></input>
+  </view>
+  <view class="comfirm">
+  <button form-type="submit" size="mini" style="font-size: 12px;" class="btn">添加数据</button>
+</view>
+</view>
+</form>

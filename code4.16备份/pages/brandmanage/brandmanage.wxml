@@ -1,0 +1,68 @@
+<!--pages/modelmanage/modelmanage.wxml-->
+<view class="title">
+  <text>手机品牌信息列表</text>
+  <navigator 
+        class="nav"
+        url="/pages/modelmanageadd/modelmanageadd" open-type="navigate">
+    <button class="btn1" size="mini" style="font-size: 14px;">+</button>
+  </navigator>  
+</view>
+<view class="content">
+  <view class="condetail">
+    <text>手机品牌：华为</text>
+      <navigator 
+        class="nav"
+        url="/pages/seriesmanage/seriesmanage?brand=华为" open-type="navigate">
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+      </navigator>  
+  </view>
+  <view class="condetail">
+    <text>手机品牌：小米</text>
+      <navigator 
+        class="nav"
+        url="/pages/seriesmanage/seriesmanage?brand=小米" open-type="navigate">
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+      </navigator>  
+  </view>
+    <view class="condetail">
+    <text>手机品牌：荣耀</text>
+      <navigator 
+        class="nav"
+        url="/pages/seriesmanage/seriesmanage?brand=荣耀" open-type="navigate">
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+      </navigator>  
+  </view>
+    <view class="condetail">
+    <text>手机品牌：魅族</text>
+      <navigator 
+        class="nav"
+        url="/pages/seriesmanage/seriesmanage?brand=魅族" open-type="navigate">
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+      </navigator>  
+  </view>
+    <view class="condetail">
+    <text>手机品牌：三星</text>
+      <navigator 
+        class="nav"
+        url="/pages/seriesmanage/seriesmanage?brand=三星" open-type="navigate">
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+      </navigator>  
+  </view>
+    <view class="condetail">
+    <text>手机品牌：vivo</text>
+      <navigator 
+        class="nav"
+        url="/pages/seriesmanage/seriesmanage?brand=vivo" open-type="navigate">
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+      </navigator>  
+  </view>
+    <view class="condetail">
+    <text>手机品牌：oppo</text>
+      <navigator 
+        class="nav"
+        url="/pages/seriesmanage/seriesmanage?brand=oppo" open-type="navigate">
+        <button class="btn" size="mini" style="font-size: 12px;">查看</button>
+      </navigator>  
+  </view>
+  
+</view>

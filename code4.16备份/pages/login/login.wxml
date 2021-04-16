@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="whole">
+  <view class="title">手机之家后台管理系统</view>
+  <view class="main">
+    <!-- 输入用户名 -->
+    <view class="input1">
+      <image src="/images/bar/wode-1.png" style="margin:5px;width:20px;height:20px"></image>
+      <input bindinput="getName" placeholder="请输入您的账户名"></input>
+    </view>
+    <!-- 输入您的密码 -->
+    <view class="input1">
+      <image src="/images/bar/suo.png" style="margin:5px;width:22px;height:22px"></image>
+      <input bindinput="getPassword" password="true" placeholder="请输入您的密码"></input>
+    </view>
+    <navigator 
+        style="float:left"
+        url="/pages/register/register" open-type="navigate">
+        <button size="mini" style="font-size:13px;">注册</button>
+    </navigator> 
+    
+    <button bindtap="login" size="mini" style="font-size:13px;">登录</button>
+  </view>
+
+</view>

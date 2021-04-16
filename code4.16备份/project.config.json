@@ -1,0 +1,92 @@
+{
+  "cloudfunctionRoot": "cloud/",
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "useApiHostProcess": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.4",
+  "appid": "wxfc2fd49b3b53fa83",
+  "projectname": "mobile-home",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "商品详情页",
+          "pathName": "pages/demo1-1/demo1-1",
+          "query": "id=28ee4e3e6066fdac0de9c5e65637a4bc",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "商品列表页",
+          "pathName": "pages/demo1/demo1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/modelmanagedetail/modelmanagedetail",
+          "pathName": "pages/modelmanagedetail/modelmanagedetail",
+          "query": "id=b00064a7604042ab083992903d58d0f5",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "参数修改页",
+          "pathName": "pages/modelmanagechde/modelmanagechde",
+          "query": "id=b00064a7604042ab083992903d58d0f5",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

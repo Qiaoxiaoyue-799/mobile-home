@@ -1,0 +1,62 @@
+<!--pages/modelmanageadd/modelmanageadd.wxml-->
+<view class="title"> 
+  <text>新增参数信息</text>  
+</view>
+<view class="content">
+  <view class="box">
+  <label>品牌</label>
+  <input bindinput="getBrand" value="{{detail.brand}}"></input>
+  </view>
+
+  <view class="box">
+  <label>系列</label>
+  <input bindinput="getSeries" value="{{detail.series}}"></input>
+  </view>
+
+  <view class="box">
+  <label>型号</label>
+  <input bindinput="getName" value="{{detail.name}}"></input>
+  </view>
+
+  <view class="box">
+  <label>芯片</label>
+  <input bindinput="getChip" value="{{detail.chip}}"></input>
+  </view>
+
+  <view class="box">
+  <label>屏幕</label>
+  <input bindinput="getScreen" value="{{detail.screen}}"></input>
+  </view>
+
+  <view class="box">
+  <label>储存</label>
+  <input bindinput="getCache" value="{{detail.cache}}"></input>
+  </view>
+
+  <view class="box">
+  <label>价格</label>
+  <input bindinput="getPrice" value="{{detail.price}}"></input>
+  </view>
+
+  <view class="box">
+  <label>前置像素</label>
+  <input bindinput="getFcamera" value="{{detail.fcamera}}"></input>
+  </view>
+
+  <view class="box">
+  <label>后置像素</label>
+  <input bindinput="getRcamera" value="{{detail.rcamera}}"></input>
+  </view>
+
+  <view class="box">
+  <label>电池容量</label>
+  <input bindinput="getBattery" value="{{detail.battery}}"></input>
+  </view>
+
+  <view class="box">
+  <label class="newtitle">是否为新系列</label>
+  <input class="kuang" bindinput="getNewSeries" value="{{detail.series_only}}"></input>
+  </view>
+
+  <button bindtap="addModel"  size="big" style="font-size: 15px;" class="btn">添加数据</button>
+</view>

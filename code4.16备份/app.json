@@ -1,0 +1,74 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/adminmanage/adminmanage",
+    "pages/register/register",
+    "pages/adminmanageadd/adminmanageadd",
+    "pages/adminmanagede/adminmanagede",
+    "pages/adminmanagechde/adminmanagechde",
+    "pages/newsmanage/newsmanage",
+    "pages/newsmanageadd/newsmanageadd",
+    "pages/newsmanagechde/newsmanagechde",
+    "pages/newsmanagede/newsmanagede",
+    "pages/advertisemanage/advertisemanage",
+    "pages/advertisemanageadd/advertisemanageadd",
+    "pages/advertisemanagede/advertisemanagede",
+    "pages/advertisemanagechde/advertisemanagechde",
+    "pages/brandmanage/brandmanage",
+    "pages/modelmanageadd/modelmanageadd",
+    "pages/modelmanage/modelmanage",
+    "pages/seriesmanage/seriesmanage",
+    "pages/modelmanagedetail/modelmanagedetail",
+    "pages/modelmanagechde/modelmanagechde",
+    "pages/shuaxin/shuaxin",
+    "pages/yuncunchu/yuncunchu",
+    "pages/goods/goods",
+    "pages/goodsdetail/goodsdetail",
+    "pages/yunhanshu/yunhanshu",
+    "pages/demo1/demo1",
+    "pages/command/command",
+    "pages/skip/skip",
+    "pages/demo1-1/demo1-1",
+    "pages/add/add",
+    "pages/shujuku/shujuku",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6f3b3b",
+    "navigationBarTitleText": "手机之家后台管理系统",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#2c2c2c",
+    "list": [
+      {
+        "pagePath": "pages/brandmanage/brandmanage",
+        "text": "型号维护",
+        "iconPath": "/images/bar/model1.png",
+        "selectedIconPath": "/images/bar/model2.png"
+      },
+      {
+        "pagePath": "pages/advertisemanage/advertisemanage",
+        "text": "广告位管理",
+        "iconPath": "/images/bar/advertise1.png",
+        "selectedIconPath": "/images/bar/advertise2.png"
+      },
+      {
+        "pagePath": "pages/newsmanage/newsmanage",
+        "text": "资讯管理",
+        "iconPath": "/images/bar/new1.png",
+        "selectedIconPath": "/images/bar/new2.png"
+      },
+      {
+        "pagePath": "pages/adminmanagede/adminmanagede",
+        "text": "用户管理",
+        "iconPath": "/images/bar/user1.png",
+        "selectedIconPath": "/images/bar/user2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

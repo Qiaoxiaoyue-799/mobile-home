@@ -1,0 +1,3 @@
+
+<image src="{{detail.img}}"></image>
+<text>商品名字{{detail.name}}</text>
